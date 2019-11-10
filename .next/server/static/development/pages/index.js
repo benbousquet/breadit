@@ -93,6 +93,520 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./components/home/cardShowcase.js":
+/*!*****************************************!*\
+  !*** ./components/home/cardShowcase.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/typography/style/css */ "./node_modules/antd/lib/typography/style/css.js");
+/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/typography */ "antd/lib/typography");
+/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _creditCard_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./creditCard/index */ "./components/home/creditCard/index.js");
+/* harmony import */ var react_tilt__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-tilt */ "react-tilt");
+/* harmony import */ var react_tilt__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_tilt__WEBPACK_IMPORTED_MODULE_4__);
+
+
+var _jsxFileName = "C:\\dev\\node_projects\\breadit\\components\\home\\cardShowcase.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+const {
+  Title
+} = antd_lib_typography__WEBPACK_IMPORTED_MODULE_1___default.a;
+/* harmony default export */ __webpack_exports__["default"] = (() => __jsx("div", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}, __jsx(Title, {
+  style: {
+    textAlign: "center",
+    paddingTop: "20px"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8
+  },
+  __self: undefined
+}, "Introducing the Breadit Card"), __jsx("div", {
+  style: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, __jsx(react_tilt__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  className: "Tilt",
+  options: {
+    max: 30
+  },
+  style: {
+    height: 190,
+    width: 320,
+    padding: "30px 0"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "Tilt-inner",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, __jsx(_creditCard_index__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}))))));
+
+/***/ }),
+
+/***/ "./components/home/creditCard/index.js":
+/*!*********************************************!*\
+  !*** ./components/home/creditCard/index.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ "./components/home/creditCard/style.css");
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\dev\\node_projects\\breadit\\components\\home\\creditCard\\index.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (() => __jsx("div", {
+  class: "card",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4
+  },
+  __self: undefined
+}, __jsx("div", {
+  class: "card__front card__part",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5
+  },
+  __self: undefined
+}, __jsx("img", {
+  class: "card__front-square card__square",
+  src: "https://image.ibb.co/cZeFjx/little_square.png",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}), __jsx("p", {
+  class: "card_numer",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, "**** **** **** 6258"), __jsx("div", {
+  class: "card__space-75",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, __jsx("span", {
+  class: "card__label",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, "Card holder"), __jsx("p", {
+  class: "card__info",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, "John Doe")), __jsx("div", {
+  class: "card__space-25",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, __jsx("span", {
+  class: "card__label",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, "Expires"), __jsx("p", {
+  class: "card__info",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, "10/25"))), __jsx("div", {
+  class: "card__back card__part",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, __jsx("div", {
+  class: "card__black-line",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}), __jsx("div", {
+  class: "card__back-content",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
+  },
+  __self: undefined
+}, __jsx("div", {
+  class: "card__secret",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}, __jsx("p", {
+  class: "card__secret--last",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}, "420")), __jsx("img", {
+  class: "card__back-square card__square",
+  src: "https://image.ibb.co/cZeFjx/little_square.png",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}), __jsx("img", {
+  class: "card__back-logo card__logo",
+  src: "https://www.fireeye.com/partners/strategic-technology-partners/visa-fireeye-cyber-watch-program/_jcr_content/content-par/grid_20_80_full/grid-20-left/image.img.png/1505254557388.png",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
+  },
+  __self: undefined
+})))));
+
+/***/ }),
+
+/***/ "./components/home/creditCard/style.css":
+/*!**********************************************!*\
+  !*** ./components/home/creditCard/style.css ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./components/home/explainationText.js":
+/*!*********************************************!*\
+  !*** ./components/home/explainationText.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/typography/style/css */ "./node_modules/antd/lib/typography/style/css.js");
+/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/typography */ "antd/lib/typography");
+/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+
+
+var _jsxFileName = "C:\\dev\\node_projects\\breadit\\components\\home\\explainationText.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+const {
+  Title,
+  Paragraph
+} = antd_lib_typography__WEBPACK_IMPORTED_MODULE_1___default.a;
+/* harmony default export */ __webpack_exports__["default"] = (() => __jsx("div", {
+  style: {
+    backgroundColor: "white",
+    width: "100%"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4
+  },
+  __self: undefined
+}, __jsx("div", {
+  style: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, __jsx("div", {
+  style: {
+    width: "25%"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18
+  },
+  __self: undefined
+}, __jsx(Title, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
+  },
+  __self: undefined
+}, "Gain the availablity of a Creditcard but with all the requirements"), __jsx(Paragraph, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26
+  },
+  __self: undefined
+}, "The ", __jsx("span", {
+  style: {
+    color: "brown"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, "Breadit Card"), " lets you get instant cash to use without needing a creditscore and retains the same availablity")), __jsx("img", {
+  src: "/stock1.png",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 32
+  },
+  __self: undefined
+}))));
+
+/***/ }),
+
+/***/ "./components/home/lenderExplaination.js":
+/*!***********************************************!*\
+  !*** ./components/home/lenderExplaination.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/typography/style/css */ "./node_modules/antd/lib/typography/style/css.js");
+/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/typography */ "antd/lib/typography");
+/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+
+
+var _jsxFileName = "C:\\dev\\node_projects\\breadit\\components\\home\\lenderExplaination.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+const {
+  Title,
+  Paragraph
+} = antd_lib_typography__WEBPACK_IMPORTED_MODULE_1___default.a;
+/* harmony default export */ __webpack_exports__["default"] = (() => __jsx("div", {
+  style: {
+    width: "100%"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4
+  },
+  __self: undefined
+}, __jsx("div", {
+  style: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, __jsx("img", {
+  src: "/stock2.png",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}), __jsx("div", {
+  style: {
+    width: "25%"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
+  },
+  __self: undefined
+}, __jsx(Title, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}, "Got some extra cash? Invest it over time"), __jsx(Paragraph, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}, "Breadit allows you to loan money to other people though microloans. Let your money increase overtime with no effort at all!")))));
+
+/***/ }),
+
+/***/ "./components/home/waitList.js":
+/*!*************************************!*\
+  !*** ./components/home/waitList.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var antd_lib_button_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/button/style/css */ "./node_modules/antd/lib/button/style/css.js");
+/* harmony import */ var antd_lib_button_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_button_style_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var antd_lib_button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/button */ "antd/lib/button");
+/* harmony import */ var antd_lib_button__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_button__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var antd_lib_input_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/input/style/css */ "./node_modules/antd/lib/input/style/css.js");
+/* harmony import */ var antd_lib_input_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_input_style_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var antd_lib_input__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/input */ "antd/lib/input");
+/* harmony import */ var antd_lib_input__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_input__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/lib/typography/style/css */ "./node_modules/antd/lib/typography/style/css.js");
+/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! antd/lib/typography */ "antd/lib/typography");
+/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+
+
+
+
+
+
+var _jsxFileName = "C:\\dev\\node_projects\\breadit\\components\\home\\waitList.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
+const {
+  Title,
+  Paragraph
+} = antd_lib_typography__WEBPACK_IMPORTED_MODULE_5___default.a;
+/* harmony default export */ __webpack_exports__["default"] = (() => __jsx("div", {
+  style: {
+    padding: "80px 0",
+    backgroundColor: "white",
+    width: "100%",
+    display: "flex",
+    justifyContent: "center"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5
+  },
+  __self: undefined
+}, __jsx("div", {
+  style: {
+    width: "50%"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}, __jsx("div", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, __jsx(Title, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, "Interested?"), __jsx(Paragraph, {
+  style: {
+    fontSize: "18px"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, "Enter your email to recieve information as we release them \uD83D\uDE0A")), __jsx("div", {
+  style: {
+    display: "flex",
+    flexDirection: "row"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, __jsx(antd_lib_input__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  size: "large",
+  placeholder: "Email",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}), __jsx(antd_lib_button__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  size: "large",
+  type: "primary",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}, "Sign Up")))));
+
+/***/ }),
+
 /***/ "./node_modules/antd/lib/button/style/css.js":
 /*!***************************************************!*\
   !*** ./node_modules/antd/lib/button/style/css.js ***!
@@ -299,52 +813,48 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var antd_lib_menu_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_menu_style_css__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var antd_lib_menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/menu */ "antd/lib/menu");
 /* harmony import */ var antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/typography/style/css */ "./node_modules/antd/lib/typography/style/css.js");
-/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/typography */ "antd/lib/typography");
-/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/lib/layout/style/css */ "./node_modules/antd/lib/layout/style/css.js");
-/* harmony import */ var antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! antd/lib/layout */ "antd/lib/layout");
-/* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react_tilt__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-tilt */ "react-tilt");
-/* harmony import */ var react_tilt__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_tilt__WEBPACK_IMPORTED_MODULE_7__);
-
-
+/* harmony import */ var antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/layout/style/css */ "./node_modules/antd/lib/layout/style/css.js");
+/* harmony import */ var antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/layout */ "antd/lib/layout");
+/* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_home_cardShowcase__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/home/cardShowcase */ "./components/home/cardShowcase.js");
+/* harmony import */ var _components_home_explainationText__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/home/explainationText */ "./components/home/explainationText.js");
+/* harmony import */ var _components_home_lenderExplaination__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/home/lenderExplaination */ "./components/home/lenderExplaination.js");
+/* harmony import */ var _components_home_waitList__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/home/waitList */ "./components/home/waitList.js");
 
 
 
 
 var _jsxFileName = "C:\\dev\\node_projects\\breadit\\pages\\index.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement;
+
+
+
 
 const {
   Header,
   Footer,
   Content
-} = antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default.a;
-const {
-  Title
-} = antd_lib_typography__WEBPACK_IMPORTED_MODULE_3___default.a;
+} = antd_lib_layout__WEBPACK_IMPORTED_MODULE_3___default.a;
 /* harmony default export */ __webpack_exports__["default"] = (() => __jsx("div", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 9
-  },
-  __self: undefined
-}, __jsx(antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default.a, {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 10
   },
   __self: undefined
-}, __jsx(Header, {
+}, __jsx(antd_lib_layout__WEBPACK_IMPORTED_MODULE_3___default.a, {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 11
+  },
+  __self: undefined
+}, __jsx(Header, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
   },
   __self: undefined
 }, __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -358,21 +868,21 @@ const {
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 13
   },
   __self: undefined
 }, __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
   key: "1",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22
+    lineNumber: 23
   },
   __self: undefined
 }, "Home"), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
   key: "2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23
+    lineNumber: 24
   },
   __self: undefined
 }, "Apply for a Breadit Card"))), __jsx(Content, {
@@ -384,56 +894,38 @@ const {
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 26
+    lineNumber: 27
   },
   __self: undefined
-}, __jsx(Title, {
-  style: {
-    textAlign: "center",
-    paddingTop: "20px"
-  },
+}, __jsx(_components_home_cardShowcase__WEBPACK_IMPORTED_MODULE_5__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 34
+    lineNumber: 35
   },
   __self: undefined
-}, "Introducing the Breadit Card"), __jsx(react_tilt__WEBPACK_IMPORTED_MODULE_7___default.a, {
-  className: "Tilt",
-  options: {
-    max: 30
+}), __jsx(_components_home_explainationText__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36
   },
-  style: {
-    height: 500,
-    width: 500,
-    display: "flex",
-    justifySelf: "center"
-  },
+  __self: undefined
+}), __jsx(_components_home_lenderExplaination__WEBPACK_IMPORTED_MODULE_7__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 37
   },
   __self: undefined
-}, __jsx("div", {
-  className: "Tilt-inner",
+}), __jsx(_components_home_waitList__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  id: "waitList",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 47
+    lineNumber: 38
   },
   __self: undefined
-}, __jsx("img", {
-  style: {
-    height: 500
-  },
-  src: "/stock4.png",
+})), __jsx(Footer, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 48
-  },
-  __self: undefined
-})))), __jsx(Footer, {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 57
+    lineNumber: 40
   },
   __self: undefined
 }, "Footer"))));
@@ -449,6 +941,28 @@ const {
 
 module.exports = __webpack_require__(/*! C:\dev\node_projects\breadit\pages\index.js */"./pages/index.js");
 
+
+/***/ }),
+
+/***/ "antd/lib/button":
+/*!**********************************!*\
+  !*** external "antd/lib/button" ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/button");
+
+/***/ }),
+
+/***/ "antd/lib/input":
+/*!*********************************!*\
+  !*** external "antd/lib/input" ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/input");
 
 /***/ }),
 
