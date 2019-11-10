@@ -14,6 +14,7 @@
     "null-loader": "2.0.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-payment-card-component": "^0.2.1",
     "react-tilt": "^0.1.4"
   },
   "license": "ISC"

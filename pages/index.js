@@ -1,9 +1,10 @@
-import { Layout, Menu, Typography } from "antd";
-import Tilt from "react-tilt";
+import { Layout, Menu } from "antd";
+import CardShowcase from "../components/home/cardShowcase";
+import ExplainationText from "../components/home/explainationText";
+import LenderExplaination from "../components/home/lenderExplaination";
+import WaitList from "../components/home/waitList";
 
 const { Header, Footer, Content } = Layout;
-
-const { Title } = Typography;
 
 export default () => (
   <div>
@@ -31,28 +32,10 @@ export default () => (
           justifyContent: "center"
         }}
       >
-        <Title style={{ textAlign: "center", paddingTop: "20px" }}>
-          Introducing the Breadit Card
-        </Title>
-        <Tilt
-          className="Tilt"
-          options={{ max: 30 }}
-          style={{
-            height: 500,
-            width: 500,
-            display: "flex",
-            justifySelf: "center"
-          }}
-        >
-          <div className="Tilt-inner">
-            <img
-              style={{
-                height: 500
-              }}
-              src="/stock4.png"
-            />
-          </div>
-        </Tilt>
+        <CardShowcase />
+        <ExplainationText />
+        <LenderExplaination />
+        <WaitList id="waitList" />
       </Content>
       <Footer>Footer</Footer>
     </Layout>

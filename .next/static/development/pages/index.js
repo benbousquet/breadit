@@ -1,5 +1,510 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
+/***/ "./components/home/cardShowcase.js":
+/*!*****************************************!*\
+  !*** ./components/home/cardShowcase.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/typography/style/css */ "./node_modules/antd/lib/typography/style/css.js");
+/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/typography */ "./node_modules/antd/lib/typography/index.js");
+/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _creditCard_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./creditCard/index */ "./components/home/creditCard/index.js");
+/* harmony import */ var react_tilt__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-tilt */ "./node_modules/react-tilt/dist/tilt.js");
+/* harmony import */ var react_tilt__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_tilt__WEBPACK_IMPORTED_MODULE_4__);
+
+
+var _jsxFileName = "C:\\dev\\node_projects\\breadit\\components\\home\\cardShowcase.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+var Title = antd_lib_typography__WEBPACK_IMPORTED_MODULE_1___default.a.Title;
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx(Title, {
+    style: {
+      textAlign: "center",
+      paddingTop: "20px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "Introducing the Breadit Card"), __jsx("div", {
+    style: {
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx(react_tilt__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    className: "Tilt",
+    options: {
+      max: 30
+    },
+    style: {
+      height: 190,
+      width: 320,
+      padding: "30px 0"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "Tilt-inner",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, __jsx(_creditCard_index__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  })))));
+});
+
+/***/ }),
+
+/***/ "./components/home/creditCard/index.js":
+/*!*********************************************!*\
+  !*** ./components/home/creditCard/index.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ "./components/home/creditCard/style.css");
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\dev\\node_projects\\breadit\\components\\home\\creditCard\\index.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx("div", {
+    "class": "card",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, __jsx("div", {
+    "class": "card__front card__part",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("img", {
+    "class": "card__front-square card__square",
+    src: "https://image.ibb.co/cZeFjx/little_square.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }), __jsx("p", {
+    "class": "card_numer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "**** **** **** 6258"), __jsx("div", {
+    "class": "card__space-75",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx("span", {
+    "class": "card__label",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "Card holder"), __jsx("p", {
+    "class": "card__info",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "John Doe")), __jsx("div", {
+    "class": "card__space-25",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx("span", {
+    "class": "card__label",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Expires"), __jsx("p", {
+    "class": "card__info",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "10/25"))), __jsx("div", {
+    "class": "card__back card__part",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, __jsx("div", {
+    "class": "card__black-line",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }), __jsx("div", {
+    "class": "card__back-content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx("div", {
+    "class": "card__secret",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, __jsx("p", {
+    "class": "card__secret--last",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "420")), __jsx("img", {
+    "class": "card__back-square card__square",
+    src: "https://image.ibb.co/cZeFjx/little_square.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }), __jsx("img", {
+    "class": "card__back-logo card__logo",
+    src: "https://www.fireeye.com/partners/strategic-technology-partners/visa-fireeye-cyber-watch-program/_jcr_content/content-par/grid_20_80_full/grid-20-left/image.img.png/1505254557388.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }))));
+});
+
+/***/ }),
+
+/***/ "./components/home/explainationText.js":
+/*!*********************************************!*\
+  !*** ./components/home/explainationText.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/typography/style/css */ "./node_modules/antd/lib/typography/style/css.js");
+/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/typography */ "./node_modules/antd/lib/typography/index.js");
+/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+
+
+var _jsxFileName = "C:\\dev\\node_projects\\breadit\\components\\home\\explainationText.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+var Title = antd_lib_typography__WEBPACK_IMPORTED_MODULE_1___default.a.Title,
+    Paragraph = antd_lib_typography__WEBPACK_IMPORTED_MODULE_1___default.a.Paragraph;
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx("div", {
+    style: {
+      backgroundColor: "white",
+      width: "100%"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, __jsx("div", {
+    style: {
+      display: "flex",
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "center"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, __jsx("div", {
+    style: {
+      width: "25%"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, __jsx(Title, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, "Gain the availablity of a Creditcard but with all the requirements"), __jsx(Paragraph, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "The ", __jsx("span", {
+    style: {
+      color: "brown"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "Breadit Card"), " lets you get instant cash to use without needing a creditscore and retains the same availablity")), __jsx("img", {
+    src: "/stock1.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  })));
+});
+
+/***/ }),
+
+/***/ "./components/home/lenderExplaination.js":
+/*!***********************************************!*\
+  !*** ./components/home/lenderExplaination.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/typography/style/css */ "./node_modules/antd/lib/typography/style/css.js");
+/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/typography */ "./node_modules/antd/lib/typography/index.js");
+/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+
+
+var _jsxFileName = "C:\\dev\\node_projects\\breadit\\components\\home\\lenderExplaination.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+var Title = antd_lib_typography__WEBPACK_IMPORTED_MODULE_1___default.a.Title,
+    Paragraph = antd_lib_typography__WEBPACK_IMPORTED_MODULE_1___default.a.Paragraph;
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx("div", {
+    style: {
+      width: "100%"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, __jsx("div", {
+    style: {
+      display: "flex",
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "center"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/stock2.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), __jsx("div", {
+    style: {
+      width: "25%"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, __jsx(Title, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "Got some extra cash? Invest it over time"), __jsx(Paragraph, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "Breadit allows you to loan money to other people though microloans. Let your money increase overtime with no effort at all!"))));
+});
+
+/***/ }),
+
+/***/ "./components/home/waitList.js":
+/*!*************************************!*\
+  !*** ./components/home/waitList.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var antd_lib_button_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/button/style/css */ "./node_modules/antd/lib/button/style/css.js");
+/* harmony import */ var antd_lib_button_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_button_style_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var antd_lib_button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/button */ "./node_modules/antd/lib/button/index.js");
+/* harmony import */ var antd_lib_button__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_button__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var antd_lib_input_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/input/style/css */ "./node_modules/antd/lib/input/style/css.js");
+/* harmony import */ var antd_lib_input_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_input_style_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var antd_lib_input__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/input */ "./node_modules/antd/lib/input/index.js");
+/* harmony import */ var antd_lib_input__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_input__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/lib/typography/style/css */ "./node_modules/antd/lib/typography/style/css.js");
+/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! antd/lib/typography */ "./node_modules/antd/lib/typography/index.js");
+/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+
+
+
+
+
+
+var _jsxFileName = "C:\\dev\\node_projects\\breadit\\components\\home\\waitList.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
+var Title = antd_lib_typography__WEBPACK_IMPORTED_MODULE_5___default.a.Title,
+    Paragraph = antd_lib_typography__WEBPACK_IMPORTED_MODULE_5___default.a.Paragraph;
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx("div", {
+    style: {
+      padding: "80px 0",
+      backgroundColor: "white",
+      width: "100%",
+      display: "flex",
+      justifyContent: "center"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("div", {
+    style: {
+      width: "50%"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx(Title, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Interested?"), __jsx(Paragraph, {
+    style: {
+      fontSize: "18px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "Enter your email to recieve information as we release them \uD83D\uDE0A")), __jsx("div", {
+    style: {
+      display: "flex",
+      flexDirection: "row"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, __jsx(antd_lib_input__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    size: "large",
+    placeholder: "Email",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }), __jsx(antd_lib_button__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    size: "large",
+    type: "primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "Sign Up"))));
+});
+
+/***/ }),
+
 /***/ "./node_modules/@ant-design/colors/lib/generate.js":
 /*!*********************************************************!*\
   !*** ./node_modules/@ant-design/colors/lib/generate.js ***!
@@ -3877,6 +4382,735 @@ exports["default"] = _default;
 
 /***/ }),
 
+/***/ "./node_modules/antd/lib/_util/wave.js":
+/*!*********************************************!*\
+  !*** ./node_modules/antd/lib/_util/wave.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var React = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _reactDom = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+
+var _Event = _interopRequireDefault(__webpack_require__(/*! css-animation/lib/Event */ "./node_modules/css-animation/lib/Event.js"));
+
+var _raf = _interopRequireDefault(__webpack_require__(/*! ./raf */ "./node_modules/antd/lib/_util/raf.js"));
+
+var _configProvider = __webpack_require__(/*! ../config-provider */ "./node_modules/antd/lib/config-provider/index.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; if (obj != null) { var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var styleForPesudo; // Where el is the DOM element you'd like to test for visibility
+
+function isHidden(element) {
+  if (false) {}
+
+  return !element || element.offsetParent === null;
+}
+
+function isNotGrey(color) {
+  // eslint-disable-next-line no-useless-escape
+  var match = (color || '').match(/rgba?\((\d*), (\d*), (\d*)(, [\.\d]*)?\)/);
+
+  if (match && match[1] && match[2] && match[3]) {
+    return !(match[1] === match[2] && match[2] === match[3]);
+  }
+
+  return true;
+}
+
+var Wave =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Wave, _React$Component);
+
+  function Wave() {
+    var _this;
+
+    _classCallCheck(this, Wave);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Wave).apply(this, arguments));
+    _this.animationStart = false;
+    _this.destroy = false;
+
+    _this.onClick = function (node, waveColor) {
+      if (!node || isHidden(node) || node.className.indexOf('-leave') >= 0) {
+        return;
+      }
+
+      var insertExtraNode = _this.props.insertExtraNode;
+      _this.extraNode = document.createElement('div');
+
+      var _assertThisInitialize = _assertThisInitialized(_this),
+          extraNode = _assertThisInitialize.extraNode;
+
+      extraNode.className = 'ant-click-animating-node';
+
+      var attributeName = _this.getAttributeName();
+
+      node.setAttribute(attributeName, 'true'); // Not white or transparnt or grey
+
+      styleForPesudo = styleForPesudo || document.createElement('style');
+
+      if (waveColor && waveColor !== '#ffffff' && waveColor !== 'rgb(255, 255, 255)' && isNotGrey(waveColor) && !/rgba\(\d*, \d*, \d*, 0\)/.test(waveColor) && // any transparent rgba color
+      waveColor !== 'transparent') {
+        // Add nonce if CSP exist
+        if (_this.csp && _this.csp.nonce) {
+          styleForPesudo.nonce = _this.csp.nonce;
+        }
+
+        extraNode.style.borderColor = waveColor;
+        styleForPesudo.innerHTML = "\n      [ant-click-animating-without-extra-node='true']::after, .ant-click-animating-node {\n        --antd-wave-shadow-color: ".concat(waveColor, ";\n      }");
+
+        if (!document.body.contains(styleForPesudo)) {
+          document.body.appendChild(styleForPesudo);
+        }
+      }
+
+      if (insertExtraNode) {
+        node.appendChild(extraNode);
+      }
+
+      _Event["default"].addStartEventListener(node, _this.onTransitionStart);
+
+      _Event["default"].addEndEventListener(node, _this.onTransitionEnd);
+    };
+
+    _this.onTransitionStart = function (e) {
+      if (_this.destroy) return;
+      var node = (0, _reactDom.findDOMNode)(_assertThisInitialized(_this));
+
+      if (!e || e.target !== node) {
+        return;
+      }
+
+      if (!_this.animationStart) {
+        _this.resetEffect(node);
+      }
+    };
+
+    _this.onTransitionEnd = function (e) {
+      if (!e || e.animationName !== 'fadeEffect') {
+        return;
+      }
+
+      _this.resetEffect(e.target);
+    };
+
+    _this.bindAnimationEvent = function (node) {
+      if (!node || !node.getAttribute || node.getAttribute('disabled') || node.className.indexOf('disabled') >= 0) {
+        return;
+      }
+
+      var onClick = function onClick(e) {
+        // Fix radio button click twice
+        if (e.target.tagName === 'INPUT' || isHidden(e.target)) {
+          return;
+        }
+
+        _this.resetEffect(node); // Get wave color from target
+
+
+        var waveColor = getComputedStyle(node).getPropertyValue('border-top-color') || // Firefox Compatible
+        getComputedStyle(node).getPropertyValue('border-color') || getComputedStyle(node).getPropertyValue('background-color');
+        _this.clickWaveTimeoutId = window.setTimeout(function () {
+          return _this.onClick(node, waveColor);
+        }, 0);
+
+        _raf["default"].cancel(_this.animationStartId);
+
+        _this.animationStart = true; // Render to trigger transition event cost 3 frames. Let's delay 10 frames to reset this.
+
+        _this.animationStartId = (0, _raf["default"])(function () {
+          _this.animationStart = false;
+        }, 10);
+      };
+
+      node.addEventListener('click', onClick, true);
+      return {
+        cancel: function cancel() {
+          node.removeEventListener('click', onClick, true);
+        }
+      };
+    };
+
+    _this.renderWave = function (_ref) {
+      var csp = _ref.csp;
+      var children = _this.props.children;
+      _this.csp = csp;
+      return children;
+    };
+
+    return _this;
+  }
+
+  _createClass(Wave, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var node = (0, _reactDom.findDOMNode)(this);
+
+      if (!node || node.nodeType !== 1) {
+        return;
+      }
+
+      this.instance = this.bindAnimationEvent(node);
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      if (this.instance) {
+        this.instance.cancel();
+      }
+
+      if (this.clickWaveTimeoutId) {
+        clearTimeout(this.clickWaveTimeoutId);
+      }
+
+      this.destroy = true;
+    }
+  }, {
+    key: "getAttributeName",
+    value: function getAttributeName() {
+      var insertExtraNode = this.props.insertExtraNode;
+      return insertExtraNode ? 'ant-click-animating' : 'ant-click-animating-without-extra-node';
+    }
+  }, {
+    key: "resetEffect",
+    value: function resetEffect(node) {
+      if (!node || node === this.extraNode || !(node instanceof Element)) {
+        return;
+      }
+
+      var insertExtraNode = this.props.insertExtraNode;
+      var attributeName = this.getAttributeName();
+      node.setAttribute(attributeName, 'false'); // edge has bug on `removeAttribute` #14466
+
+      if (styleForPesudo) {
+        styleForPesudo.innerHTML = '';
+      }
+
+      if (insertExtraNode && this.extraNode && node.contains(this.extraNode)) {
+        node.removeChild(this.extraNode);
+      }
+
+      _Event["default"].removeStartEventListener(node, this.onTransitionStart);
+
+      _Event["default"].removeEndEventListener(node, this.onTransitionEnd);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return React.createElement(_configProvider.ConfigConsumer, null, this.renderWave);
+    }
+  }]);
+
+  return Wave;
+}(React.Component);
+
+exports["default"] = Wave;
+//# sourceMappingURL=wave.js.map
+
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/button/button-group.js":
+/*!******************************************************!*\
+  !*** ./node_modules/antd/lib/button/button-group.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var React = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ "./node_modules/classnames/index.js"));
+
+var _configProvider = __webpack_require__(/*! ../config-provider */ "./node_modules/antd/lib/config-provider/index.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; if (obj != null) { var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var __rest = void 0 && (void 0).__rest || function (s, e) {
+  var t = {};
+
+  for (var p in s) {
+    if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
+  }
+
+  if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+    if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i])) t[p[i]] = s[p[i]];
+  }
+  return t;
+};
+
+var ButtonGroup = function ButtonGroup(props) {
+  return React.createElement(_configProvider.ConfigConsumer, null, function (_ref) {
+    var getPrefixCls = _ref.getPrefixCls;
+
+    var customizePrefixCls = props.prefixCls,
+        size = props.size,
+        className = props.className,
+        others = __rest(props, ["prefixCls", "size", "className"]);
+
+    var prefixCls = getPrefixCls('btn-group', customizePrefixCls); // large => lg
+    // small => sm
+
+    var sizeCls = '';
+
+    switch (size) {
+      case 'large':
+        sizeCls = 'lg';
+        break;
+
+      case 'small':
+        sizeCls = 'sm';
+        break;
+
+      default:
+        break;
+    }
+
+    var classes = (0, _classnames["default"])(prefixCls, _defineProperty({}, "".concat(prefixCls, "-").concat(sizeCls), sizeCls), className);
+    return React.createElement("div", _extends({}, others, {
+      className: classes
+    }));
+  });
+};
+
+var _default = ButtonGroup;
+exports["default"] = _default;
+//# sourceMappingURL=button-group.js.map
+
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/button/button.js":
+/*!************************************************!*\
+  !*** ./node_modules/antd/lib/button/button.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var React = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var PropTypes = _interopRequireWildcard(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ "./node_modules/classnames/index.js"));
+
+var _reactLifecyclesCompat = __webpack_require__(/*! react-lifecycles-compat */ "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js");
+
+var _omit = _interopRequireDefault(__webpack_require__(/*! omit.js */ "./node_modules/omit.js/es/index.js"));
+
+var _icon = _interopRequireDefault(__webpack_require__(/*! ../icon */ "./node_modules/antd/lib/icon/index.js"));
+
+var _configProvider = __webpack_require__(/*! ../config-provider */ "./node_modules/antd/lib/config-provider/index.js");
+
+var _wave = _interopRequireDefault(__webpack_require__(/*! ../_util/wave */ "./node_modules/antd/lib/_util/wave.js"));
+
+var _type = __webpack_require__(/*! ../_util/type */ "./node_modules/antd/lib/_util/type.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; if (obj != null) { var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+var __rest = void 0 && (void 0).__rest || function (s, e) {
+  var t = {};
+
+  for (var p in s) {
+    if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
+  }
+
+  if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+    if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i])) t[p[i]] = s[p[i]];
+  }
+  return t;
+};
+/* eslint-disable react/button-has-type */
+
+
+var rxTwoCNChar = /^[\u4e00-\u9fa5]{2}$/;
+var isTwoCNChar = rxTwoCNChar.test.bind(rxTwoCNChar);
+
+function isString(str) {
+  return typeof str === 'string';
+} // Insert one space between two chinese characters automatically.
+
+
+function insertSpace(child, needInserted) {
+  // Check the child if is undefined or null.
+  if (child == null) {
+    return;
+  }
+
+  var SPACE = needInserted ? ' ' : ''; // strictNullChecks oops.
+
+  if (typeof child !== 'string' && typeof child !== 'number' && isString(child.type) && isTwoCNChar(child.props.children)) {
+    return React.cloneElement(child, {}, child.props.children.split('').join(SPACE));
+  }
+
+  if (typeof child === 'string') {
+    if (isTwoCNChar(child)) {
+      child = child.split('').join(SPACE);
+    }
+
+    return React.createElement("span", null, child);
+  }
+
+  return child;
+}
+
+function spaceChildren(children, needInserted) {
+  var isPrevChildPure = false;
+  var childList = [];
+  React.Children.forEach(children, function (child) {
+    var type = _typeof(child);
+
+    var isCurrentChildPure = type === 'string' || type === 'number';
+
+    if (isPrevChildPure && isCurrentChildPure) {
+      var lastIndex = childList.length - 1;
+      var lastChild = childList[lastIndex];
+      childList[lastIndex] = "".concat(lastChild).concat(child);
+    } else {
+      childList.push(child);
+    }
+
+    isPrevChildPure = isCurrentChildPure;
+  }); // Pass to React.Children.map to auto fill key
+
+  return React.Children.map(childList, function (child) {
+    return insertSpace(child, needInserted);
+  });
+}
+
+var ButtonTypes = (0, _type.tuple)('default', 'primary', 'ghost', 'dashed', 'danger', 'link');
+var ButtonShapes = (0, _type.tuple)('circle', 'circle-outline', 'round');
+var ButtonSizes = (0, _type.tuple)('large', 'default', 'small');
+var ButtonHTMLTypes = (0, _type.tuple)('submit', 'button', 'reset');
+
+var Button =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Button, _React$Component);
+
+  function Button(props) {
+    var _this;
+
+    _classCallCheck(this, Button);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Button).call(this, props));
+
+    _this.saveButtonRef = function (node) {
+      _this.buttonNode = node;
+    };
+
+    _this.handleClick = function (e) {
+      var loading = _this.state.loading;
+      var onClick = _this.props.onClick;
+
+      if (loading) {
+        return;
+      }
+
+      if (onClick) {
+        onClick(e);
+      }
+    };
+
+    _this.renderButton = function (_ref) {
+      var _classNames;
+
+      var getPrefixCls = _ref.getPrefixCls,
+          autoInsertSpaceInButton = _ref.autoInsertSpaceInButton;
+
+      var _a = _this.props,
+          customizePrefixCls = _a.prefixCls,
+          type = _a.type,
+          shape = _a.shape,
+          size = _a.size,
+          className = _a.className,
+          children = _a.children,
+          icon = _a.icon,
+          ghost = _a.ghost,
+          block = _a.block,
+          rest = __rest(_a, ["prefixCls", "type", "shape", "size", "className", "children", "icon", "ghost", "block"]);
+
+      var _this$state = _this.state,
+          loading = _this$state.loading,
+          hasTwoCNChar = _this$state.hasTwoCNChar;
+      var prefixCls = getPrefixCls('btn', customizePrefixCls);
+      var autoInsertSpace = autoInsertSpaceInButton !== false; // large => lg
+      // small => sm
+
+      var sizeCls = '';
+
+      switch (size) {
+        case 'large':
+          sizeCls = 'lg';
+          break;
+
+        case 'small':
+          sizeCls = 'sm';
+          break;
+
+        default:
+          break;
+      }
+
+      var iconType = loading ? 'loading' : icon;
+      var classes = (0, _classnames["default"])(prefixCls, className, (_classNames = {}, _defineProperty(_classNames, "".concat(prefixCls, "-").concat(type), type), _defineProperty(_classNames, "".concat(prefixCls, "-").concat(shape), shape), _defineProperty(_classNames, "".concat(prefixCls, "-").concat(sizeCls), sizeCls), _defineProperty(_classNames, "".concat(prefixCls, "-icon-only"), !children && children !== 0 && iconType), _defineProperty(_classNames, "".concat(prefixCls, "-loading"), !!loading), _defineProperty(_classNames, "".concat(prefixCls, "-background-ghost"), ghost), _defineProperty(_classNames, "".concat(prefixCls, "-two-chinese-chars"), hasTwoCNChar && autoInsertSpace), _defineProperty(_classNames, "".concat(prefixCls, "-block"), block), _classNames));
+      var iconNode = iconType ? React.createElement(_icon["default"], {
+        type: iconType
+      }) : null;
+      var kids = children || children === 0 ? spaceChildren(children, _this.isNeedInserted() && autoInsertSpace) : null;
+      var linkButtonRestProps = (0, _omit["default"])(rest, ['htmlType', 'loading']);
+
+      if (linkButtonRestProps.href !== undefined) {
+        return React.createElement("a", _extends({}, linkButtonRestProps, {
+          className: classes,
+          onClick: _this.handleClick,
+          ref: _this.saveButtonRef
+        }), iconNode, kids);
+      } // React does not recognize the `htmlType` prop on a DOM element. Here we pick it out of `rest`.
+
+
+      var _b = rest,
+          htmlType = _b.htmlType,
+          otherProps = __rest(_b, ["htmlType"]);
+
+      var buttonNode = React.createElement("button", _extends({}, (0, _omit["default"])(otherProps, ['loading']), {
+        type: htmlType,
+        className: classes,
+        onClick: _this.handleClick,
+        ref: _this.saveButtonRef
+      }), iconNode, kids);
+
+      if (type === 'link') {
+        return buttonNode;
+      }
+
+      return React.createElement(_wave["default"], null, buttonNode);
+    };
+
+    _this.state = {
+      loading: props.loading,
+      hasTwoCNChar: false
+    };
+    return _this;
+  }
+
+  _createClass(Button, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.fixTwoCNChar();
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps) {
+      var _this2 = this;
+
+      this.fixTwoCNChar();
+
+      if (prevProps.loading && typeof prevProps.loading !== 'boolean') {
+        clearTimeout(this.delayTimeout);
+      }
+
+      var loading = this.props.loading;
+
+      if (loading && typeof loading !== 'boolean' && loading.delay) {
+        this.delayTimeout = window.setTimeout(function () {
+          _this2.setState({
+            loading: loading
+          });
+        }, loading.delay);
+      } else if (prevProps.loading !== loading) {
+        // eslint-disable-next-line react/no-did-update-set-state
+        this.setState({
+          loading: loading
+        });
+      }
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      if (this.delayTimeout) {
+        clearTimeout(this.delayTimeout);
+      }
+    }
+  }, {
+    key: "fixTwoCNChar",
+    value: function fixTwoCNChar() {
+      // Fix for HOC usage like <FormatMessage />
+      if (!this.buttonNode) {
+        return;
+      }
+
+      var buttonText = this.buttonNode.textContent || this.buttonNode.innerText;
+
+      if (this.isNeedInserted() && isTwoCNChar(buttonText)) {
+        if (!this.state.hasTwoCNChar) {
+          this.setState({
+            hasTwoCNChar: true
+          });
+        }
+      } else if (this.state.hasTwoCNChar) {
+        this.setState({
+          hasTwoCNChar: false
+        });
+      }
+    }
+  }, {
+    key: "isNeedInserted",
+    value: function isNeedInserted() {
+      var _this$props = this.props,
+          icon = _this$props.icon,
+          children = _this$props.children,
+          type = _this$props.type;
+      return React.Children.count(children) === 1 && !icon && type !== 'link';
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return React.createElement(_configProvider.ConfigConsumer, null, this.renderButton);
+    }
+  }]);
+
+  return Button;
+}(React.Component);
+
+Button.__ANT_BUTTON = true;
+Button.defaultProps = {
+  loading: false,
+  ghost: false,
+  block: false,
+  htmlType: 'button'
+};
+Button.propTypes = {
+  type: PropTypes.string,
+  shape: PropTypes.oneOf(ButtonShapes),
+  size: PropTypes.oneOf(ButtonSizes),
+  htmlType: PropTypes.oneOf(ButtonHTMLTypes),
+  onClick: PropTypes.func,
+  loading: PropTypes.oneOfType([PropTypes.bool, PropTypes.object]),
+  className: PropTypes.string,
+  icon: PropTypes.string,
+  block: PropTypes.bool,
+  title: PropTypes.string
+};
+(0, _reactLifecyclesCompat.polyfill)(Button);
+var _default = Button;
+exports["default"] = _default;
+//# sourceMappingURL=button.js.map
+
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/button/index.js":
+/*!***********************************************!*\
+  !*** ./node_modules/antd/lib/button/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _button = _interopRequireDefault(__webpack_require__(/*! ./button */ "./node_modules/antd/lib/button/button.js"));
+
+var _buttonGroup = _interopRequireDefault(__webpack_require__(/*! ./button-group */ "./node_modules/antd/lib/button/button-group.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+_button["default"].Group = _buttonGroup["default"];
+var _default = _button["default"];
+exports["default"] = _default;
+//# sourceMappingURL=index.js.map
+
+
+/***/ }),
+
 /***/ "./node_modules/antd/lib/button/style/css.js":
 /*!***************************************************!*\
   !*** ./node_modules/antd/lib/button/style/css.js ***!
@@ -5107,6 +6341,63 @@ exports["default"] = _default;
 
 /***/ }),
 
+/***/ "./node_modules/antd/lib/input/Group.js":
+/*!**********************************************!*\
+  !*** ./node_modules/antd/lib/input/Group.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var React = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ "./node_modules/classnames/index.js"));
+
+var _configProvider = __webpack_require__(/*! ../config-provider */ "./node_modules/antd/lib/config-provider/index.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; if (obj != null) { var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var Group = function Group(props) {
+  return React.createElement(_configProvider.ConfigConsumer, null, function (_ref) {
+    var _classNames;
+
+    var getPrefixCls = _ref.getPrefixCls;
+    var customizePrefixCls = props.prefixCls,
+        _props$className = props.className,
+        className = _props$className === void 0 ? '' : _props$className;
+    var prefixCls = getPrefixCls('input-group', customizePrefixCls);
+    var cls = (0, _classnames["default"])(prefixCls, (_classNames = {}, _defineProperty(_classNames, "".concat(prefixCls, "-lg"), props.size === 'large'), _defineProperty(_classNames, "".concat(prefixCls, "-sm"), props.size === 'small'), _defineProperty(_classNames, "".concat(prefixCls, "-compact"), props.compact), _classNames), className);
+    return React.createElement("span", {
+      className: cls,
+      style: props.style,
+      onMouseEnter: props.onMouseEnter,
+      onMouseLeave: props.onMouseLeave,
+      onFocus: props.onFocus,
+      onBlur: props.onBlur
+    }, props.children);
+  });
+};
+
+var _default = Group;
+exports["default"] = _default;
+//# sourceMappingURL=Group.js.map
+
+
+/***/ }),
+
 /***/ "./node_modules/antd/lib/input/Input.js":
 /*!**********************************************!*\
   !*** ./node_modules/antd/lib/input/Input.js ***!
@@ -5390,6 +6681,186 @@ exports["default"] = _default;
 
 /***/ }),
 
+/***/ "./node_modules/antd/lib/input/Password.js":
+/*!*************************************************!*\
+  !*** ./node_modules/antd/lib/input/Password.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var React = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ "./node_modules/classnames/index.js"));
+
+var _omit = _interopRequireDefault(__webpack_require__(/*! omit.js */ "./node_modules/omit.js/es/index.js"));
+
+var _Input = _interopRequireDefault(__webpack_require__(/*! ./Input */ "./node_modules/antd/lib/input/Input.js"));
+
+var _icon = _interopRequireDefault(__webpack_require__(/*! ../icon */ "./node_modules/antd/lib/icon/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; if (obj != null) { var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var __rest = void 0 && (void 0).__rest || function (s, e) {
+  var t = {};
+
+  for (var p in s) {
+    if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
+  }
+
+  if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+    if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i])) t[p[i]] = s[p[i]];
+  }
+  return t;
+};
+
+var ActionMap = {
+  click: 'onClick',
+  hover: 'onMouseOver'
+};
+
+var Password =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Password, _React$Component);
+
+  function Password() {
+    var _this;
+
+    _classCallCheck(this, Password);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Password).apply(this, arguments));
+    _this.state = {
+      visible: false
+    };
+
+    _this.onChange = function () {
+      var disabled = _this.props.disabled;
+
+      if (disabled) {
+        return;
+      }
+
+      _this.setState(function (_ref) {
+        var visible = _ref.visible;
+        return {
+          visible: !visible
+        };
+      });
+    };
+
+    _this.saveInput = function (instance) {
+      if (instance && instance.input) {
+        _this.input = instance.input;
+      }
+    };
+
+    return _this;
+  }
+
+  _createClass(Password, [{
+    key: "getIcon",
+    value: function getIcon() {
+      var _iconProps;
+
+      var _this$props = this.props,
+          prefixCls = _this$props.prefixCls,
+          action = _this$props.action;
+      var iconTrigger = ActionMap[action] || '';
+      var iconProps = (_iconProps = {}, _defineProperty(_iconProps, iconTrigger, this.onChange), _defineProperty(_iconProps, "className", "".concat(prefixCls, "-icon")), _defineProperty(_iconProps, "type", this.state.visible ? 'eye' : 'eye-invisible'), _defineProperty(_iconProps, "key", 'passwordIcon'), _defineProperty(_iconProps, "onMouseDown", function onMouseDown(e) {
+        // Prevent focused state lost
+        // https://github.com/ant-design/ant-design/issues/15173
+        e.preventDefault();
+      }), _iconProps);
+      return React.createElement(_icon["default"], iconProps);
+    }
+  }, {
+    key: "focus",
+    value: function focus() {
+      this.input.focus();
+    }
+  }, {
+    key: "blur",
+    value: function blur() {
+      this.input.blur();
+    }
+  }, {
+    key: "select",
+    value: function select() {
+      this.input.select();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _a = this.props,
+          className = _a.className,
+          prefixCls = _a.prefixCls,
+          inputPrefixCls = _a.inputPrefixCls,
+          size = _a.size,
+          visibilityToggle = _a.visibilityToggle,
+          restProps = __rest(_a, ["className", "prefixCls", "inputPrefixCls", "size", "visibilityToggle"]);
+
+      var suffixIcon = visibilityToggle && this.getIcon();
+      var inputClassName = (0, _classnames["default"])(prefixCls, className, _defineProperty({}, "".concat(prefixCls, "-").concat(size), !!size));
+      return React.createElement(_Input["default"], _extends({}, (0, _omit["default"])(restProps, ['suffix']), {
+        type: this.state.visible ? 'text' : 'password',
+        size: size,
+        className: inputClassName,
+        prefixCls: inputPrefixCls,
+        suffix: suffixIcon,
+        ref: this.saveInput
+      }));
+    }
+  }]);
+
+  return Password;
+}(React.Component);
+
+exports["default"] = Password;
+Password.defaultProps = {
+  inputPrefixCls: 'ant-input',
+  prefixCls: 'ant-input-password',
+  action: 'click',
+  visibilityToggle: true
+};
+//# sourceMappingURL=Password.js.map
+
+
+/***/ }),
+
 /***/ "./node_modules/antd/lib/input/ResizableTextArea.js":
 /*!**********************************************************!*\
   !*** ./node_modules/antd/lib/input/ResizableTextArea.js ***!
@@ -5570,6 +7041,289 @@ function (_React$Component) {
 var _default = ResizableTextArea;
 exports["default"] = _default;
 //# sourceMappingURL=ResizableTextArea.js.map
+
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/input/Search.js":
+/*!***********************************************!*\
+  !*** ./node_modules/antd/lib/input/Search.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var React = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ "./node_modules/classnames/index.js"));
+
+var _Input = _interopRequireDefault(__webpack_require__(/*! ./Input */ "./node_modules/antd/lib/input/Input.js"));
+
+var _icon = _interopRequireDefault(__webpack_require__(/*! ../icon */ "./node_modules/antd/lib/icon/index.js"));
+
+var _button = _interopRequireDefault(__webpack_require__(/*! ../button */ "./node_modules/antd/lib/button/index.js"));
+
+var _configProvider = __webpack_require__(/*! ../config-provider */ "./node_modules/antd/lib/config-provider/index.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; if (obj != null) { var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var __rest = void 0 && (void 0).__rest || function (s, e) {
+  var t = {};
+
+  for (var p in s) {
+    if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
+  }
+
+  if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+    if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i])) t[p[i]] = s[p[i]];
+  }
+  return t;
+};
+
+var Search =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Search, _React$Component);
+
+  function Search() {
+    var _this;
+
+    _classCallCheck(this, Search);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Search).apply(this, arguments));
+
+    _this.saveInput = function (node) {
+      _this.input = node;
+    };
+
+    _this.onChange = function (e) {
+      var _this$props = _this.props,
+          onChange = _this$props.onChange,
+          onSearch = _this$props.onSearch;
+
+      if (e && e.target && e.type === 'click' && onSearch) {
+        onSearch(e.target.value, e);
+      }
+
+      if (onChange) {
+        onChange(e);
+      }
+    };
+
+    _this.onSearch = function (e) {
+      var _this$props2 = _this.props,
+          onSearch = _this$props2.onSearch,
+          loading = _this$props2.loading,
+          disabled = _this$props2.disabled;
+
+      if (loading || disabled) {
+        return;
+      }
+
+      if (onSearch) {
+        onSearch(_this.input.input.value, e);
+      }
+
+      _this.input.focus();
+    };
+
+    _this.renderLoading = function (prefixCls) {
+      var _this$props3 = _this.props,
+          enterButton = _this$props3.enterButton,
+          size = _this$props3.size;
+
+      if (enterButton) {
+        return React.createElement(_button["default"], {
+          className: "".concat(prefixCls, "-button"),
+          type: "primary",
+          size: size,
+          key: "enterButton"
+        }, React.createElement(_icon["default"], {
+          type: "loading"
+        }));
+      }
+
+      return React.createElement(_icon["default"], {
+        className: "".concat(prefixCls, "-icon"),
+        type: "loading",
+        key: "loadingIcon"
+      });
+    };
+
+    _this.renderSuffix = function (prefixCls) {
+      var _this$props4 = _this.props,
+          suffix = _this$props4.suffix,
+          enterButton = _this$props4.enterButton,
+          loading = _this$props4.loading;
+
+      if (loading && !enterButton) {
+        return [suffix, _this.renderLoading(prefixCls)];
+      }
+
+      if (enterButton) return suffix;
+      var icon = React.createElement(_icon["default"], {
+        className: "".concat(prefixCls, "-icon"),
+        type: "search",
+        key: "searchIcon",
+        onClick: _this.onSearch
+      });
+
+      if (suffix) {
+        return [React.isValidElement(suffix) ? React.cloneElement(suffix, {
+          key: 'suffix'
+        }) : null, icon];
+      }
+
+      return icon;
+    };
+
+    _this.renderAddonAfter = function (prefixCls) {
+      var _this$props5 = _this.props,
+          enterButton = _this$props5.enterButton,
+          size = _this$props5.size,
+          disabled = _this$props5.disabled,
+          addonAfter = _this$props5.addonAfter,
+          loading = _this$props5.loading;
+      var btnClassName = "".concat(prefixCls, "-button");
+
+      if (loading && enterButton) {
+        return [_this.renderLoading(prefixCls), addonAfter];
+      }
+
+      if (!enterButton) return addonAfter;
+      var button;
+      var enterButtonAsElement = enterButton;
+      var isAntdButton = enterButtonAsElement.type && enterButtonAsElement.type.__ANT_BUTTON === true;
+
+      if (isAntdButton || enterButtonAsElement.type === 'button') {
+        button = React.cloneElement(enterButtonAsElement, _extends({
+          onClick: _this.onSearch,
+          key: 'enterButton'
+        }, isAntdButton ? {
+          className: btnClassName,
+          size: size
+        } : {}));
+      } else {
+        button = React.createElement(_button["default"], {
+          className: btnClassName,
+          type: "primary",
+          size: size,
+          disabled: disabled,
+          key: "enterButton",
+          onClick: _this.onSearch
+        }, enterButton === true ? React.createElement(_icon["default"], {
+          type: "search"
+        }) : enterButton);
+      }
+
+      if (addonAfter) {
+        return [button, React.isValidElement(addonAfter) ? React.cloneElement(addonAfter, {
+          key: 'addonAfter'
+        }) : null];
+      }
+
+      return button;
+    };
+
+    _this.renderSearch = function (_ref) {
+      var getPrefixCls = _ref.getPrefixCls;
+
+      var _a = _this.props,
+          customizePrefixCls = _a.prefixCls,
+          customizeInputPrefixCls = _a.inputPrefixCls,
+          size = _a.size,
+          enterButton = _a.enterButton,
+          className = _a.className,
+          restProps = __rest(_a, ["prefixCls", "inputPrefixCls", "size", "enterButton", "className"]);
+
+      delete restProps.onSearch;
+      delete restProps.loading;
+      var prefixCls = getPrefixCls('input-search', customizePrefixCls);
+      var inputPrefixCls = getPrefixCls('input', customizeInputPrefixCls);
+      var inputClassName;
+
+      if (enterButton) {
+        var _classNames;
+
+        inputClassName = (0, _classnames["default"])(prefixCls, className, (_classNames = {}, _defineProperty(_classNames, "".concat(prefixCls, "-enter-button"), !!enterButton), _defineProperty(_classNames, "".concat(prefixCls, "-").concat(size), !!size), _classNames));
+      } else {
+        inputClassName = (0, _classnames["default"])(prefixCls, className);
+      }
+
+      return React.createElement(_Input["default"], _extends({
+        onPressEnter: _this.onSearch
+      }, restProps, {
+        size: size,
+        prefixCls: inputPrefixCls,
+        addonAfter: _this.renderAddonAfter(prefixCls),
+        suffix: _this.renderSuffix(prefixCls),
+        onChange: _this.onChange,
+        ref: _this.saveInput,
+        className: inputClassName
+      }));
+    };
+
+    return _this;
+  }
+
+  _createClass(Search, [{
+    key: "focus",
+    value: function focus() {
+      this.input.focus();
+    }
+  }, {
+    key: "blur",
+    value: function blur() {
+      this.input.blur();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return React.createElement(_configProvider.ConfigConsumer, null, this.renderSearch);
+    }
+  }]);
+
+  return Search;
+}(React.Component);
+
+exports["default"] = Search;
+Search.defaultProps = {
+  enterButton: false
+};
+//# sourceMappingURL=Search.js.map
 
 
 /***/ }),
@@ -5891,6 +7645,44 @@ function calculateNodeHeight(uiTextNode) {
   };
 }
 //# sourceMappingURL=calculateNodeHeight.js.map
+
+
+/***/ }),
+
+/***/ "./node_modules/antd/lib/input/index.js":
+/*!**********************************************!*\
+  !*** ./node_modules/antd/lib/input/index.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _Input = _interopRequireDefault(__webpack_require__(/*! ./Input */ "./node_modules/antd/lib/input/Input.js"));
+
+var _Group = _interopRequireDefault(__webpack_require__(/*! ./Group */ "./node_modules/antd/lib/input/Group.js"));
+
+var _Search = _interopRequireDefault(__webpack_require__(/*! ./Search */ "./node_modules/antd/lib/input/Search.js"));
+
+var _TextArea = _interopRequireDefault(__webpack_require__(/*! ./TextArea */ "./node_modules/antd/lib/input/TextArea.js"));
+
+var _Password = _interopRequireDefault(__webpack_require__(/*! ./Password */ "./node_modules/antd/lib/input/Password.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+_Input["default"].Group = _Group["default"];
+_Input["default"].Search = _Search["default"];
+_Input["default"].TextArea = _TextArea["default"];
+_Input["default"].Password = _Password["default"];
+var _default = _Input["default"];
+exports["default"] = _default;
+//# sourceMappingURL=index.js.map
 
 
 /***/ }),
@@ -12278,6 +14070,152 @@ cssAnimation.isCssAnimationSupported = isCssAnimationSupported;
 
 
 /* harmony default export */ __webpack_exports__["default"] = (cssAnimation);
+
+/***/ }),
+
+/***/ "./node_modules/css-animation/lib/Event.js":
+/*!*************************************************!*\
+  !*** ./node_modules/css-animation/lib/Event.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var START_EVENT_NAME_MAP = {
+  transitionstart: {
+    transition: 'transitionstart',
+    WebkitTransition: 'webkitTransitionStart',
+    MozTransition: 'mozTransitionStart',
+    OTransition: 'oTransitionStart',
+    msTransition: 'MSTransitionStart'
+  },
+
+  animationstart: {
+    animation: 'animationstart',
+    WebkitAnimation: 'webkitAnimationStart',
+    MozAnimation: 'mozAnimationStart',
+    OAnimation: 'oAnimationStart',
+    msAnimation: 'MSAnimationStart'
+  }
+};
+
+var END_EVENT_NAME_MAP = {
+  transitionend: {
+    transition: 'transitionend',
+    WebkitTransition: 'webkitTransitionEnd',
+    MozTransition: 'mozTransitionEnd',
+    OTransition: 'oTransitionEnd',
+    msTransition: 'MSTransitionEnd'
+  },
+
+  animationend: {
+    animation: 'animationend',
+    WebkitAnimation: 'webkitAnimationEnd',
+    MozAnimation: 'mozAnimationEnd',
+    OAnimation: 'oAnimationEnd',
+    msAnimation: 'MSAnimationEnd'
+  }
+};
+
+var startEvents = [];
+var endEvents = [];
+
+function detectEvents() {
+  var testEl = document.createElement('div');
+  var style = testEl.style;
+
+  if (!('AnimationEvent' in window)) {
+    delete START_EVENT_NAME_MAP.animationstart.animation;
+    delete END_EVENT_NAME_MAP.animationend.animation;
+  }
+
+  if (!('TransitionEvent' in window)) {
+    delete START_EVENT_NAME_MAP.transitionstart.transition;
+    delete END_EVENT_NAME_MAP.transitionend.transition;
+  }
+
+  function process(EVENT_NAME_MAP, events) {
+    for (var baseEventName in EVENT_NAME_MAP) {
+      if (EVENT_NAME_MAP.hasOwnProperty(baseEventName)) {
+        var baseEvents = EVENT_NAME_MAP[baseEventName];
+        for (var styleName in baseEvents) {
+          if (styleName in style) {
+            events.push(baseEvents[styleName]);
+            break;
+          }
+        }
+      }
+    }
+  }
+
+  process(START_EVENT_NAME_MAP, startEvents);
+  process(END_EVENT_NAME_MAP, endEvents);
+}
+
+if (typeof window !== 'undefined' && typeof document !== 'undefined') {
+  detectEvents();
+}
+
+function addEventListener(node, eventName, eventListener) {
+  node.addEventListener(eventName, eventListener, false);
+}
+
+function removeEventListener(node, eventName, eventListener) {
+  node.removeEventListener(eventName, eventListener, false);
+}
+
+var TransitionEvents = {
+  // Start events
+  startEvents: startEvents,
+
+  addStartEventListener: function addStartEventListener(node, eventListener) {
+    if (startEvents.length === 0) {
+      window.setTimeout(eventListener, 0);
+      return;
+    }
+    startEvents.forEach(function (startEvent) {
+      addEventListener(node, startEvent, eventListener);
+    });
+  },
+  removeStartEventListener: function removeStartEventListener(node, eventListener) {
+    if (startEvents.length === 0) {
+      return;
+    }
+    startEvents.forEach(function (startEvent) {
+      removeEventListener(node, startEvent, eventListener);
+    });
+  },
+
+
+  // End events
+  endEvents: endEvents,
+
+  addEndEventListener: function addEndEventListener(node, eventListener) {
+    if (endEvents.length === 0) {
+      window.setTimeout(eventListener, 0);
+      return;
+    }
+    endEvents.forEach(function (endEvent) {
+      addEventListener(node, endEvent, eventListener);
+    });
+  },
+  removeEndEventListener: function removeEndEventListener(node, eventListener) {
+    if (endEvents.length === 0) {
+      return;
+    }
+    endEvents.forEach(function (endEvent) {
+      removeEventListener(node, endEvent, eventListener);
+    });
+  }
+};
+
+exports['default'] = TransitionEvents;
+module.exports = exports['default'];
 
 /***/ }),
 
@@ -44452,49 +46390,47 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var antd_lib_menu_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_menu_style_css__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var antd_lib_menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/menu */ "./node_modules/antd/lib/menu/index.js");
 /* harmony import */ var antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/typography/style/css */ "./node_modules/antd/lib/typography/style/css.js");
-/* harmony import */ var antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography_style_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/typography */ "./node_modules/antd/lib/typography/index.js");
-/* harmony import */ var antd_lib_typography__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_typography__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/lib/layout/style/css */ "./node_modules/antd/lib/layout/style/css.js");
-/* harmony import */ var antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! antd/lib/layout */ "./node_modules/antd/lib/layout/index.js");
-/* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react_tilt__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-tilt */ "./node_modules/react-tilt/dist/tilt.js");
-/* harmony import */ var react_tilt__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_tilt__WEBPACK_IMPORTED_MODULE_7__);
-
-
+/* harmony import */ var antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/layout/style/css */ "./node_modules/antd/lib/layout/style/css.js");
+/* harmony import */ var antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/layout */ "./node_modules/antd/lib/layout/index.js");
+/* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_home_cardShowcase__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/home/cardShowcase */ "./components/home/cardShowcase.js");
+/* harmony import */ var _components_home_explainationText__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/home/explainationText */ "./components/home/explainationText.js");
+/* harmony import */ var _components_home_lenderExplaination__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/home/lenderExplaination */ "./components/home/lenderExplaination.js");
+/* harmony import */ var _components_home_waitList__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/home/waitList */ "./components/home/waitList.js");
 
 
 
 
 var _jsxFileName = "C:\\dev\\node_projects\\breadit\\pages\\index.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement;
 
-var Header = antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default.a.Header,
-    Footer = antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default.a.Footer,
-    Content = antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default.a.Content;
-var Title = antd_lib_typography__WEBPACK_IMPORTED_MODULE_3___default.a.Title;
+
+
+
+var Header = antd_lib_layout__WEBPACK_IMPORTED_MODULE_3___default.a.Header,
+    Footer = antd_lib_layout__WEBPACK_IMPORTED_MODULE_3___default.a.Footer,
+    Content = antd_lib_layout__WEBPACK_IMPORTED_MODULE_3___default.a.Content;
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx(antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, __jsx(Header, {
+  }, __jsx(antd_lib_layout__WEBPACK_IMPORTED_MODULE_3___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
+    },
+    __self: this
+  }, __jsx(Header, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
     },
     __self: this
   }, __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -44508,21 +46444,21 @@ var Title = antd_lib_typography__WEBPACK_IMPORTED_MODULE_3___default.a.Title;
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }, __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
     key: "1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 23
     },
     __self: this
   }, "Home"), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
     key: "2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 24
     },
     __self: this
   }, "Apply for a Breadit Card"))), __jsx(Content, {
@@ -44534,56 +46470,38 @@ var Title = antd_lib_typography__WEBPACK_IMPORTED_MODULE_3___default.a.Title;
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 27
     },
     __self: this
-  }, __jsx(Title, {
-    style: {
-      textAlign: "center",
-      paddingTop: "20px"
-    },
+  }, __jsx(_components_home_cardShowcase__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 35
     },
     __self: this
-  }, "Introducing the Breadit Card"), __jsx(react_tilt__WEBPACK_IMPORTED_MODULE_7___default.a, {
-    className: "Tilt",
-    options: {
-      max: 30
+  }), __jsx(_components_home_explainationText__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
     },
-    style: {
-      height: 500,
-      width: 500,
-      display: "flex",
-      justifySelf: "center"
-    },
+    __self: this
+  }), __jsx(_components_home_lenderExplaination__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
     },
     __self: this
-  }, __jsx("div", {
-    className: "Tilt-inner",
+  }), __jsx(_components_home_waitList__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    id: "waitList",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 38
     },
     __self: this
-  }, __jsx("img", {
-    style: {
-      height: 500
-    },
-    src: "/stock4.png",
+  })), __jsx(Footer, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  })))), __jsx(Footer, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 40
     },
     __self: this
   }, "Footer")));
