@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{"075l":function(n,o,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/borrower/request",function(){return w("grUu")}])},grUu:function(n,o){}},[["075l",0]]]);

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{"9Lm5":function(n,o){},lZpP:function(n,o,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/lender/loans",function(){return w("9Lm5")}])}},[["lZpP",0]]]);

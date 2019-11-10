@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{Hq5J:function(n,w,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/lender/create",function(){return o("gQ0P")}])},gQ0P:function(n,w){}},[["Hq5J",0]]]);

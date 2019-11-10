@@ -22,7 +22,7 @@ export default () => (
         }}
       >
         <Title>Got some extra cash? Invest it over time</Title>
-        <Paragraph>
+        <Paragraph style={{ fontSize: "18px" }}>
           Breadit allows you to loan money to other people though microloans.
           Let your money increase overtime with no effort at all!
         </Paragraph>
