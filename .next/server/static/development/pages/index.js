@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -198,21 +198,21 @@ var _jsxFileName = "C:\\dev\\node_projects\\breadit\\components\\home\\creditCar
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 /* harmony default export */ __webpack_exports__["default"] = (() => __jsx("div", {
-  class: "card",
+  className: "card",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 4
   },
   __self: undefined
 }, __jsx("div", {
-  class: "card__front card__part",
+  className: "card__front card__part",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5
   },
   __self: undefined
 }, __jsx("img", {
-  class: "card__front-square card__square",
+  className: "card__front-square card__square",
   src: "https://image.ibb.co/cZeFjx/little_square.png",
   __source: {
     fileName: _jsxFileName,
@@ -220,91 +220,91 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   },
   __self: undefined
 }), __jsx("p", {
-  class: "card_numer",
+  className: "card_numer",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 10
   },
   __self: undefined
 }, "**** **** **** 6258"), __jsx("div", {
-  class: "card__space-75",
+  className: "card__space-75",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 11
   },
   __self: undefined
 }, __jsx("span", {
-  class: "card__label",
+  className: "card__label",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
   },
   __self: undefined
 }, "Card holder"), __jsx("p", {
-  class: "card__info",
+  className: "card__info",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
   },
   __self: undefined
 }, "John Doe")), __jsx("div", {
-  class: "card__space-25",
+  className: "card__space-25",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 15
   },
   __self: undefined
 }, __jsx("span", {
-  class: "card__label",
+  className: "card__label",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 16
   },
   __self: undefined
 }, "Expires"), __jsx("p", {
-  class: "card__info",
+  className: "card__info",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 17
   },
   __self: undefined
 }, "10/25"))), __jsx("div", {
-  class: "card__back card__part",
+  className: "card__back card__part",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 21
   },
   __self: undefined
 }, __jsx("div", {
-  class: "card__black-line",
+  className: "card__black-line",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 22
   },
   __self: undefined
 }), __jsx("div", {
-  class: "card__back-content",
+  className: "card__back-content",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 23
   },
   __self: undefined
 }, __jsx("div", {
-  class: "card__secret",
+  className: "card__secret",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 24
   },
   __self: undefined
 }, __jsx("p", {
-  class: "card__secret--last",
+  className: "card__secret--last",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 25
   },
   __self: undefined
 }, "420")), __jsx("img", {
-  class: "card__back-square card__square",
+  className: "card__back-square card__square",
   src: "https://image.ibb.co/cZeFjx/little_square.png",
   __source: {
     fileName: _jsxFileName,
@@ -312,7 +312,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   },
   __self: undefined
 }), __jsx("img", {
-  class: "card__back-logo card__logo",
+  className: "card__back-logo card__logo",
   src: "https://www.fireeye.com/partners/strategic-technology-partners/visa-fireeye-cyber-watch-program/_jcr_content/content-par/grid_20_80_full/grid-20-left/image.img.png/1505254557388.png",
   __source: {
     fileName: _jsxFileName,
@@ -396,25 +396,19 @@ const {
   },
   __self: undefined
 }, "Gain the availablity of a Creditcard but with all the requirements"), __jsx(Paragraph, {
+  style: {
+    fontSize: "18px"
+  },
   __source: {
     fileName: _jsxFileName,
     lineNumber: 26
   },
   __self: undefined
-}, "The ", __jsx("span", {
-  style: {
-    color: "brown"
-  },
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 27
-  },
-  __self: undefined
-}, "Breadit Card"), " lets you get instant cash to use without needing a creditscore and retains the same availablity")), __jsx("img", {
+}, "The Breadit Card lets you get instant cash to use without needing a creditscore and retains the same availablity")), __jsx("img", {
   src: "/stock1.png",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 32
+    lineNumber: 31
   },
   __self: undefined
 }))));
@@ -489,6 +483,9 @@ const {
   },
   __self: undefined
 }, "Got some extra cash? Invest it over time"), __jsx(Paragraph, {
+  style: {
+    fontSize: "18px"
+  },
   __source: {
     fileName: _jsxFileName,
     lineNumber: 25
@@ -604,6 +601,47 @@ const {
   },
   __self: undefined
 }, "Sign Up")))));
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/define-property */ "core-js/library/fn/object/define-property");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
 
 /***/ }),
 
@@ -809,27 +847,33 @@ __webpack_require__(/*! ../../input/style/css */ "./node_modules/antd/lib/input/
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Home; });
 /* harmony import */ var antd_lib_menu_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/menu/style/css */ "./node_modules/antd/lib/menu/style/css.js");
 /* harmony import */ var antd_lib_menu_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_menu_style_css__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var antd_lib_menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/menu */ "antd/lib/menu");
 /* harmony import */ var antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/layout/style/css */ "./node_modules/antd/lib/layout/style/css.js");
-/* harmony import */ var antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/layout */ "antd/lib/layout");
-/* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _components_home_cardShowcase__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/home/cardShowcase */ "./components/home/cardShowcase.js");
-/* harmony import */ var _components_home_explainationText__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/home/explainationText */ "./components/home/explainationText.js");
-/* harmony import */ var _components_home_lenderExplaination__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/home/lenderExplaination */ "./components/home/lenderExplaination.js");
-/* harmony import */ var _components_home_waitList__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/home/waitList */ "./components/home/waitList.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/layout/style/css */ "./node_modules/antd/lib/layout/style/css.js");
+/* harmony import */ var antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/lib/layout */ "antd/lib/layout");
+/* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_home_cardShowcase__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/home/cardShowcase */ "./components/home/cardShowcase.js");
+/* harmony import */ var _components_home_explainationText__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/home/explainationText */ "./components/home/explainationText.js");
+/* harmony import */ var _components_home_lenderExplaination__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/home/lenderExplaination */ "./components/home/lenderExplaination.js");
+/* harmony import */ var _components_home_waitList__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/home/waitList */ "./components/home/waitList.js");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-scroll */ "react-scroll");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_10__);
+
 
 
 
 
 var _jsxFileName = "C:\\dev\\node_projects\\breadit\\pages\\index.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement;
+
 
 
 
@@ -838,101 +882,142 @@ const {
   Header,
   Footer,
   Content
-} = antd_lib_layout__WEBPACK_IMPORTED_MODULE_3___default.a;
-/* harmony default export */ __webpack_exports__["default"] = (() => __jsx("div", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 10
-  },
-  __self: undefined
-}, __jsx(antd_lib_layout__WEBPACK_IMPORTED_MODULE_3___default.a, {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 11
-  },
-  __self: undefined
-}, __jsx(Header, {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 12
-  },
-  __self: undefined
-}, __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  theme: "dark",
-  mode: "horizontal",
-  defaultSelectedKeys: ["1"],
-  style: {
-    lineHeight: "64px",
-    display: "flex",
-    justifyContent: "center"
-  },
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 13
-  },
-  __self: undefined
-}, __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
-  key: "1",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 23
-  },
-  __self: undefined
-}, "Home"), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
-  key: "2",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 24
-  },
-  __self: undefined
-}, "Apply for a Breadit Card"))), __jsx(Content, {
-  style: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center"
-  },
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 27
-  },
-  __self: undefined
-}, __jsx(_components_home_cardShowcase__WEBPACK_IMPORTED_MODULE_5__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 35
-  },
-  __self: undefined
-}), __jsx(_components_home_explainationText__WEBPACK_IMPORTED_MODULE_6__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 36
-  },
-  __self: undefined
-}), __jsx(_components_home_lenderExplaination__WEBPACK_IMPORTED_MODULE_7__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 37
-  },
-  __self: undefined
-}), __jsx(_components_home_waitList__WEBPACK_IMPORTED_MODULE_8__["default"], {
-  id: "waitList",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 38
-  },
-  __self: undefined
-})), __jsx(Footer, {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 40
-  },
-  __self: undefined
-}, "Footer"))));
+} = antd_lib_layout__WEBPACK_IMPORTED_MODULE_4___default.a;
+class Home extends react__WEBPACK_IMPORTED_MODULE_5___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(this, "componentWillUnmount", () => {
+      react_scroll__WEBPACK_IMPORTED_MODULE_10__["Events"].scrollEvent.remove("begin");
+      react_scroll__WEBPACK_IMPORTED_MODULE_10__["Events"].scrollEvent.remove("end");
+    });
+
+    this.scrollToTop = this.scrollToTop.bind(this);
+  }
+
+  scrollToTop() {
+    react_scroll__WEBPACK_IMPORTED_MODULE_10__["animateScroll"].scrollToTop();
+  }
+
+  componentDidMount() {
+    react_scroll__WEBPACK_IMPORTED_MODULE_10__["Events"].scrollEvent.register("begin", function () {
+      console.log("begin", arguments);
+    });
+    react_scroll__WEBPACK_IMPORTED_MODULE_10__["Events"].scrollEvent.register("end", function () {
+      console.log("end", arguments);
+    });
+  }
+
+  render() {
+    return __jsx("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43
+      },
+      __self: this
+    }, __jsx(antd_lib_layout__WEBPACK_IMPORTED_MODULE_4___default.a, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 44
+      },
+      __self: this
+    }, __jsx(Header, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45
+      },
+      __self: this
+    }, __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      theme: "dark",
+      mode: "horizontal",
+      defaultSelectedKeys: ["1"],
+      style: {
+        lineHeight: "64px",
+        display: "flex",
+        justifyContent: "center"
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46
+      },
+      __self: this
+    }, __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
+      key: "1",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 56
+      },
+      __self: this
+    }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_10__["Link"], {
+      to: "waitList",
+      spy: "true",
+      smooth: "true",
+      duration: 500,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 57
+      },
+      __self: this
+    }, "Apply for a Breadit Card")))), __jsx(Content, {
+      style: {
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center"
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63
+      },
+      __self: this
+    }, __jsx(_components_home_cardShowcase__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 71
+      },
+      __self: this
+    }), __jsx(_components_home_explainationText__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 72
+      },
+      __self: this
+    }), __jsx(_components_home_lenderExplaination__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 73
+      },
+      __self: this
+    }), __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_10__["Element"], {
+      name: "waitList",
+      style: {
+        width: "100%"
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 74
+      },
+      __self: this
+    }, __jsx(_components_home_waitList__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 75
+      },
+      __self: this
+    }))), __jsx(Footer, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 78
+      },
+      __self: this
+    }, "Breadit \xA92019")));
+  }
+
+}
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -999,6 +1084,17 @@ module.exports = require("antd/lib/typography");
 
 /***/ }),
 
+/***/ "core-js/library/fn/object/define-property":
+/*!************************************************************!*\
+  !*** external "core-js/library/fn/object/define-property" ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/library/fn/object/define-property");
+
+/***/ }),
+
 /***/ "react":
 /*!************************!*\
   !*** external "react" ***!
@@ -1007,6 +1103,17 @@ module.exports = require("antd/lib/typography");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-scroll":
+/*!*******************************!*\
+  !*** external "react-scroll" ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-scroll");
 
 /***/ }),
 

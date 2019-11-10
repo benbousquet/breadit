@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{fYK3:function(n,w,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/lender/addMoney",function(){return o("whjq")}])},whjq:function(n,w){}},[["fYK3",0]]]);
