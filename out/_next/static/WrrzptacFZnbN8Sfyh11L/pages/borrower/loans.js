@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{"2nFv":function(n,w,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/borrower/loans",function(){return o("k6wB")}])},k6wB:function(n,w){}},[["2nFv",0]]]);
